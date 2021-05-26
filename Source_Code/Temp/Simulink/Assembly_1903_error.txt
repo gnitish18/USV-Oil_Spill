@@ -1,0 +1,24 @@
+Constrained Instances: 'body-1', 'Assembly_1903'
+Constraint Name: Lock1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'body-1', 'Assembly_1903'
+Constraint Name: Lock1
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'body-1', 'Assembly_1903'
+Constraint Name: Lock1
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: Unknown
+Constraint Name: BeltMates1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Roller_Top-1', 'Roller_Bottom-1'
+Constraint Name: BeltMate1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Assembly_1903', 'Assembly_1903', 'Belt1-1^Assembly_1903-1', 'Belt1-1^Assembly_1903-1'
+Constraint Name: LockToSketchMate1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
