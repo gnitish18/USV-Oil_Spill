@@ -1,0 +1,375 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 03/15/21 by D.Sasi Preetham
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = _
+Application.SldWorks
+
+' MSGBOX
+' An error was encountered while trying to open your file. Contact Technical Support for a possible solution.
+
+Set Part = swApp.OpenDoc6("D:\sasi\project\3D Model\bluerobotics-t200-thruster\T200-ASM-CCW-THRUSTER-R1\T200-ASM-CCW-THRUSTER-R1.SLDPRT", 1, 0, "", longstatus, longwarnings)
+swApp.ActivateDoc2 "T200-ASM-CCW-THRUSTER-R1.SLDPRT", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.14499658401183696
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.022640166686817367, -0.33026999691585079
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013584100012090421, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013584100012090421, -0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013584100012090421, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.009056066674726946, -0.064442926227483086
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.022640166686817367, -0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.040752300036271255, -0.08055365778435386
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013584100012090421, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.009056066674726946, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.009056066674726946, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.009056066674726946, -0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.009056066674726946, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.07249829200591848
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.08055365778435386
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.07249829200591848
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.064442926227483086
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.018112133349453892, -0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, -0.064442926227483086
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.009056066674726946, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.064442926227483086
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.022640166686817367, -0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.064442926227483086
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.022640166686817367, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.009056066674726946, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.067920500060452096, 0.24971633913149693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, 0.71692755428074928
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.096664389341224621
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.08055365778435386
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.096664389341224621
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.12083048667653079
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.009056066674726946, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.009056066674726946, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013584100012090421, 0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013584100012090421, 0.056387560449047705
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.009056066674726946, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.027168200024180841, 0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.027168200024180841, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, 0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.009056066674726946, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.009056066674726946, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.009056066674726946, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, 0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.009056066674726946, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.10471975511966
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.064442926227483086
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, -0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.013584100012090421, -0.024166097335306155
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.009056066674726946, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, -0.0080553657784353857
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.004528033337363473, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.031696233361544313, 0.14499658401183696
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.22555024179619082
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.08055365778435386
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.064442926227483086
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.032221463113741543
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.016110731556870771
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.048332194670612311
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.004528033337363473, 0.04027682889217693
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0080553657784353857
+swApp.ExitApp
+End Sub
