@@ -68,7 +68,7 @@ function [pose] = Controller(goal, pose, t)
     plot(goal(:,1), goal(:,2),':r','LineWidth',2);
     axis([-5 20 -10 10])
     hold on;
-
+    
     % Iterate for the given simulation time
     for time = 1:length(timestep)
         

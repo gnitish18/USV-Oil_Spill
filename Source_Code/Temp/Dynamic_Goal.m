@@ -3,7 +3,7 @@ function [pose] = Dynamic_Goal(goal, pose, t)
     
     % Sampling rate for simulation
     sample_time = 0.03;
-    sim_time = 35;
+    sim_time = 10;
     vizRate = rateControl(1/sample_time);
     timestep = 0:sample_time:sim_time;
     Max_Thrust = 20;

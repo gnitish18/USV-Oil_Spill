@@ -8,13 +8,13 @@ sampling = 0.1;
 
 figure(1)
 ax = axes('XLim',[-10 10],'YLim',[-5 20],'ZLim',[-2.5 2.5]);
-view(3);    % view all the axes (3D)
+view(3);    % View all the axes (3D)
 grid on;
- 
+
 % Modelling water
-Water_x=-10:0.5:10;
-Water_y=-10:0.5:20;
-Water_z=-1.5:0.1:1;
+Water_x = -10:0.5:10;
+Water_y = -10:0.5:20;
+Water_z = -1.5:0.1:1;
 [Water_X,Water_Y,Water_Z] = meshgrid(Water_x,Water_y,Water_z);
 I = Water_Z <= 0;
 scatter3(Water_X(I),Water_Y(I),Water_Z(I),'.');
